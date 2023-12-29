@@ -1,3 +1,60 @@
+.header {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  display: flex;
+}
 
+.logo {
+  width: 154px;
+}
+
+.logo-container {
+  display: flex;
+}
+
+.logo-name {
+  font-size: 55px;
+}
+
+.nav-items {
+  margin-right: 4%;
+}
+
+.nav-items > ul {
+  margin-top: 50px;
+  list-style: none;
+  display: flex;
+}
+
+.nav-items > ul > li {
+  margin: 15px;
+  padding: 15px;
+}
+
+.restaurantcard {
+  background-color: #f0f0f0;
+  width: 172px;
+  margin: 2px;
+}
+
+.restaurantcard:hover {
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+.res-logo {
+  width: 170px;
+  margin: 1px;
+}
+
+.res-body {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.footer {
+  color: #8c8f93;
+  text-align: center;
+}
 
 /*# sourceMappingURL=index.3a01df49.css.map */
